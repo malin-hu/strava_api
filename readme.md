@@ -4,7 +4,7 @@ This repo contains code for sending API requests to Strava and creating  visuali
 
 Follow these steps once before running any code:
 
-1. Follow (Strava's instructions)[https://developers.strava.com/docs/getting-started/#account] to create an API application.
+1. Follow [Strava's instructions](https://developers.strava.com/docs/getting-started/#account) to create an API application.
 
 2. Create a file in your working directory called strava_tokens.json.  Paste the following into the file, replacing the client_id, client_secret, access_token, and refresh_token fields with your own information.  expires_at can be set to any arbitrary number at this point.
 
