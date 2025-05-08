@@ -22,9 +22,9 @@ Access tokens expire after six hours.  strava_auth.py contains functions that wi
 
 Once this set-up is complete, you can start executing code in strava.ipynb.  It begins by fetching your activity data.  This will be saved in a file called strava_activities.json. It will then fetch pace- and heart rate-zone data for each activity.  These zones will be saved in a file called strava_zones.json.  Given Strava API's rate limits, it may take a few days to import your own data.
 
-Here are some fun graphs that you can make that, inexplicatly, you cannot make through Strava itself:
+Here are some fun graphs that you can make:
 
-- weekly totals for distance, moving time, elevation gain, and relative effort for a given year (super basic stuff but, again, not possible through Strava)
+- weekly totals for distance, moving time, elevation gain, and relative effort for a given year (super basic stuff but, inexplicably, not possible through Strava's own website)
 - weekly total time, split into Strava's pace and heart rate zones (so you can _ex post_ realize that you got injured because you increased both mileage *and* intensity, like an idiot)
 - cumulative mileage by year (it's like racing your past self)
 - scatterplots so that you can, for instance, see how your average heart rate correlates with average pace or how pace varies with distance (so much bunching!)
