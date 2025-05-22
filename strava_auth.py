@@ -38,7 +38,7 @@ def get_access_token():
     if time.time() > tokens['expires_at']:
         print('Access token expired. Refreshing...')
         tokens = refresh_access_tokens(tokens)
-        print('Access tocken refreshed.')
+        print('Access token refreshed.')
     else:
         print(f'Access token is still valid: {tokens["access_token"]}')
     return tokens['access_token']
